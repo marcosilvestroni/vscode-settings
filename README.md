@@ -1,6 +1,6 @@
 # My VsCode Setting
 
-That's my Edtor settings just for backup proposal
+That's my Editor settings just for backup proposal
 
 ## Versioning
 
