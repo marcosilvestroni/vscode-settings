@@ -1,14 +1,10 @@
 # My VsCode Setting
 
-That's my Edtor settings just for backup proposal
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+That's my Editor settings just for backup proposal
 
 ## Authors
 
-* **Marco Silvestroni** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Marco Silvestroni** 
 
 ## License
 
