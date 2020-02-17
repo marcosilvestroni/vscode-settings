@@ -3,21 +3,57 @@
         "suppressShowKeyBindingsNotice": true
     },
     "editor.acceptSuggestionOnCommitCharacter": false,
-    "workbench.startupEditor": "newUntitledFile",
+    "workbench.startupEditor": "none",
     "workbench.activityBar.visible": true,
     "workbench.statusBar.visible": true,
-    "window.zoomLevel": 0,
-    "files.autoSave": "onWindowChange",
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
-    "editor.renderControlCharacters": true,
+    "window.zoomLevel": 1,
+    "files.autoSave": "off",
     "editor.renderWhitespace": "all",
-    "editor.minimap.enabled": false,
     "git.confirmSync": false,
-    "terminal.integrated.rendererType": "dom",
-    "editor.cursorStyle": "line-thin",
-    "workbench.iconTheme": "material-icon-theme",
-    "editor.formatOnPaste": true,
     "editor.formatOnType": true,
-    "editor.fontWeight": "bold",
+    "editor.fontFamily": "Fira Code, monospace",
+    "workbench.editor.highlightModifiedTabs": true,
+    "files.trimFinalNewlines": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "emmet.syntaxProfiles": {
+        "javascript": "javascriptreact",
+        "xml": {
+            "attr_quotes": "single"
+        }
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/web/node_modules": true,
+        "**/web/build": true, // will change frequently by build command
+        "**/admin/node_modules": true
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "files.autoSaveDelay": 4000,
+    "eslint.autoFixOnSave": true,
+    "git.enableSmartCommit": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "breadcrumbs.enabled": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontLigatures": true,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.mouseWheelZoom": true,
+    "prettier-eslint.eslintIntegration": true,
+    "liveshare.featureSet": "stable",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
 }
